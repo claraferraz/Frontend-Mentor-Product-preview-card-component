@@ -9,8 +9,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    letter-spacing:5px;
-
 }
 .product {
     display:flex;
@@ -22,7 +20,10 @@
     justify-content: center;
 }
 #product-img{
+    background-image: url("Assets/images/image-product-desktop.jpg");
+    background-size:cover;
     height:450px;
+    width: 300px;
 }
 #product-txt{
     background-color: white;
@@ -34,6 +35,7 @@
     font-size: 12px;
     font-family: montserrat;
     font-weight: 500;
+    letter-spacing:5px;
 }
 #name{
     color: #1C232B;
@@ -41,7 +43,6 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0px;
     text-align: left;
     margin-top:20px;
 }
@@ -52,7 +53,6 @@
     font-size: 14px;
     font-weight: 500;
     line-height: 23px;
-    letter-spacing: 0px;
     text-align: left;
 }
 .price{
@@ -66,7 +66,6 @@
     font-size: 32px;
     font-weight: 700;
     line-height: 32px;
-    letter-spacing: 0px;
     text-align: left;
 }
 #price-full{
@@ -76,23 +75,30 @@
     font-size: 13px;
     font-weight: 500;
     line-height: 23px;
-    letter-spacing: 0px;
     text-align: left;
     margin-left: 19px;
 }
 #button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     margin-top:30px;
     background-color: #3D8168;
     color:white;
     border-radius:8px;
     width:236px;
     height:48px;
-
+}
+#button-txt{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 700;
     line-height: 17px;
-    letter-spacing: 0px;
+}
+#button-icon{
+    margin-right: 11.61px;
+    height:16px;
+    width:14.39px;
 }
 #attribution {
     position:absolute;

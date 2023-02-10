@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+#background {
+    display: flex;
+    background: #F2EAE2;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    letter-spacing:5px;
+
+}
+.product {
+    display:flex;
+    width: 600px;
+    height: 450px;
+    align-items: stretch;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+#product-img{
+    height:450px;
+}
+#product-txt{
+    background-color: white;
+    padding: 32px;
+}
+#perfume{
+    color: #6C7289;
+    width: 92px;
+    font-size: 12px;
+    font-family: montserrat;
+    font-weight: 500;
+}
+#name{
+    color: #1C232B;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top:20px;
+}
+#description{
+    margin-top:24px;
+    color:#6C7289;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+#price-off{
+    margin-top:29px;
+    color:#3D8168;
+    font-family: Fraunces;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+#price-full{
+    margin-top:34px;
+    color:#6C7289;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 19px;
+}
+#button{
+    margin-top:30px;
+    background-color: #3D8168;
+    color:white;
+    border-radius:8px;
+    width:236px;
+    height:48px;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0px;
+}
+#attribution {
+    position:absolute;
+    bottom:5px;
+    width:100%;
+    font-size: 11px; 
+    text-align: center;
+}
+#attribution a {
+    color: hsl(228, 45%, 44%);
+}

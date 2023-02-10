@@ -116,7 +116,7 @@
     color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 376px){
+@media (max-width: 600px){
     .product {
         display:block;
         height: 611px;

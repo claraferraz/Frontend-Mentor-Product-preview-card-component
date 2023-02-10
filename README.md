@@ -90,7 +90,7 @@ To organize my blocks in the center I used flexbox:
     overflow: hidden;
     justify-content: center;
 ```
-Since I did a desktop-first workflow, I added a media querry for the mobile CSS:
+Since I did a desktop-first workflow, I added a media query for the mobile CSS:
 
 ```css
 @media (max-width: 376px){...}

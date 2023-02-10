@@ -54,7 +54,7 @@ Users should be able to:
 
 ### What I learned
 
-- On this project I could practice what I've been learning on an Udemy HTML and CSS course. The things that I've practiced the most were flexbox and media querry on CSS. The HTML part was pretty simple and straight forward, I've used mostly divs to organize the blocks.
+- On this project I could practice what I've been learning on an Udemy HTML and CSS course. The things that I've practiced the most were flexbox and media query on CSS. The HTML part was pretty simple and straight forward, I've used mostly divs to organize the blocks.
 - Before this challenge I had never used Figma, and I really liked it because it helps out a lot to check the specific configurations to use in the CSS, for example, the exact colors, fonts and even the distance between each block, which for that I used margins and paddings to set them up right.
 
 Here are some examples:

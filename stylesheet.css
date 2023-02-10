@@ -89,6 +89,7 @@
     border-radius:8px;
     width:236px;
     height:48px;
+    transition: background-color 0.1s ease-in-out;
 }
 #button-txt{
     font-family: Montserrat;

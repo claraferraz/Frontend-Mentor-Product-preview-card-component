@@ -79,6 +79,7 @@
     margin-left: 19px;
 }
 #button{
+    cursor:pointer;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +101,9 @@
     height:16px;
     width:14.39px;
 }
+#button:active{
+    background-color: #1A4032;
+}
 #attribution {
     position:absolute;
     bottom:5px;
@@ -109,4 +113,46 @@
 }
 #attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 376px){
+    .product {
+        display:block;
+        height: 611px;
+        width: 343px;
+        margin: 28px 16px;        
+        border-radius: 10px;
+        overflow: hidden;
+        justify-content: center;
+    }
+    #product-img{
+        background-image: url("Assets/images/image-product-mobile.jpg");
+        background-size:cover;
+        height: 240px;
+        width: 343px;
+    }
+    #product-txt{
+        padding: 24px;
+    }
+    #name{
+        margin-top:12px;
+    }
+    #description{
+        margin-top:16px;
+    }
+    .price{
+        display: flex;
+        align-items: left;
+    }
+    #price-off{
+        margin-top:24px;
+    }
+    #price-full{
+        margin-top:29px;
+    }
+    #button{
+        margin-top:20px;
+        width:295px;
+        height:48px;
+    }
 }
